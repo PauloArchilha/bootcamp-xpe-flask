@@ -1,0 +1,56 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18592feb1ee-6fcc7af7177627e1": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "data.db",
+			"save-password": true,
+			"configuration": {
+				"database": "\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"url": "jdbc:sqlite:\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18593002eef-1f4a3b8a630a983a": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "data.db 2",
+			"save-password": true,
+			"configuration": {
+				"database": "\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"url": "jdbc:sqlite:\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"configurationType": "URL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18593017624-72ebea0e630bac8e": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "data.db 3",
+			"save-password": true,
+			"show-system-objects": true,
+			"configuration": {
+				"database": "\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"url": "jdbc:sqlite:\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

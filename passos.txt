@@ -1,0 +1,14 @@
+refactor das configs
+
+instalar o pacote de migrações (pip install flask_Migrations)
+
+instalar o pacote de ORM (pip install flask_sqlalchemy)
+
+criamos User
+
+----------------------------------------------------------------
+
+flask db init
+flask db migrate
+flask db upgrade
+

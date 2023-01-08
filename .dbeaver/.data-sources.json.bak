@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18592feb1ee-6fcc7af7177627e1": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "data.db",
+			"save-password": true,
+			"configuration": {
+				"database": "\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"url": "jdbc:sqlite:\\\\wsl.localhost\\Ubuntu\\home\\pauloarchilha\\xpe\\Flask\\data.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
